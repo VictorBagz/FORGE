@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <a href="#" className="flex items-center group mr-8">
           <img 
-            src="/logo.png" 
+            src="./logo.png" 
             alt="Forge Performance Hub" 
             // Invert logo when scrolled to make it dark (assuming original is white for dark theme)
             className={`h-14 w-auto object-contain transition-all duration-300 group-hover:scale-105 ${isScrolled ? 'brightness-0' : ''}`}

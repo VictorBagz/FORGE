@@ -3,23 +3,23 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const SLIDES = [
   {
-    image: "/forge1.jpeg",
+    image: "./forge1.jpeg",
     alt: "Coach 1"
   },
   {
-    image: "/forge2.jpeg",
+    image: "./forge2.jpeg",
     alt: "Coach 2"
   },
   {
-    image: "/forge3.jpeg",
+    image: "./forge3.jpeg",
     alt: "Coach 3"
   },
   {
-    image: "/emong.jpg",
+    image: "./emong.jpg",
     alt: "Training Session"
   },
   {
-    image: "/wokos.jpg",
+    image: "./wokos.jpg",
     alt: "Performance Training"
   }
 ];
