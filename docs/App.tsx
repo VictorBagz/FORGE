@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AICoach from './components/AICoach';
 import ImageSlider from './components/ImageSlider';
-import { Program, Trainer } from './docs/types';
+import { Program, Trainer } from './types';
 
 // Constants defined here to keep file count low as per instruction
 const PROGRAMS: Program[] = [
