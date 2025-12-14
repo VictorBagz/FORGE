@@ -5,7 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/FORGE/',  // ← Add this line
+      base: '/FORGE/',
+      build: {
+        outDir: 'docs',  // ← Add this line
+      },
       server: {
         port: 3000,
         host: '0.0.0.0',
