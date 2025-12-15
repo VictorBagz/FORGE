@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       base: '/FORGE/',
       build: {
-        outDir: 'docs',  // ← Add this line
+        outDir: 'dist',
       },
       server: {
         port: 3000,
