@@ -73,7 +73,7 @@ const AICoach: React.FC = () => {
                       ? 'bg-forge-accent text-white rounded-br-none' 
                       : 'bg-white text-gray-800 border border-gray-200 rounded-bl-none'
                   }`}>
-                    {msg.text.split('\n').map((line, i) => (
+                    {msg.text.split('\n').map((line: string, i: number) => (
                        <React.Fragment key={i}>
                          {line}
                          {i !== msg.text.split('\n').length - 1 && <br />}
